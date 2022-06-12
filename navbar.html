@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="navbar.css" rel="stylesheet">
+    <title>Navbar</title>
+    <link rel="icon" href="website.png" type="image/png" sizes="16x16">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <script src="https://kit.fontawesome.com/823e00936a.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+    <nav style="background-color: #00c16e; box-shadow: 0px 4px 6px 0px rgb(88 80 80);" class="navbar navbar-expand-lg">
+        <button class="navbar-toggler" type="button"  >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="welcome.php">Dashboard <span class="sr-only" title="Dashboard" ></span></a>
+                </li>
+                <li class="sub-menu-parent" tab-index="0">
+                    <a href="#">User Management</a>
+                    <ul class="sub-menu">
+                        <li><a href="all_admins_display.php"> All admins </a></li>
+                        <li><a href="ban_admin_form.php">Ban/Unban Admin</a></li>
+                        <li><a href="update_admin_form.php">Update Admin</a></li>
+                        <li ><a href="add_admin_form.php">Admin Register</a></li>
+                        <li><a href="admin_login.php"> Admin Login</a></li>
+                        <li><a href="indexx.php"> Send Mail To admin</a></li>
+                        <li><a href="show_cart.php"> Show Cart</a></li>
+
+                    </ul>
+                </li>
+                <li class="sub-menu-parent" tab-index="0">
+                    <a href="#">Sales Management</a>
+                    <ul class="sub-menu">
+                        <li><a href="search_product.php"> Search Products </a></li>
+                        <li><a href="add_to_cart.php">Make A Sale</a></li>
+                        <li><a href="update_product_form.php">Update Stock</a></li>
+                        <li><a href="add_product_form.php"> Add Product</a></li>
+                        <li><a href="add_category_form.php"> Add Cateogory</a></li>
+                        <li><a href="add_supplier_form.php"> Add Supplier</a></li>
+                        <li><a href="products_low_in stock.php"> Products Low in Stocks</a></li>
+                    </ul>
+                </li>
+                <li class="sub-menu-parent" tab-index="0">
+                    <a href="#">Empolyee Management</a>
+                    <ul class="sub-menu">
+                        <li><a href="http://localhost/task/index.php"> Task Management</a></li>
+                        
+                    </ul>
+                </li>
+             
+                
+                <li class="sub-menu-parent" style="min-width: 160px;" tab-index="0">
+                    <a href="#" >Admin</a>
+                    <ul class="sub-menu">
+                        <li ><a href="admin_registration.php">Admin Register</a></li>
+                        <li><a href="admin_login.php"> Admin Login</a></li>
+                      
+                    </ul>
+                </li>
+          
+
+                
+            </ul>
+            <ul class="navbar-nav ">
+                
+            <li> 
+                <a href="#">Login</a>
+            </li>
+            
+
+            <li>
+                <a href="logout.php">Logout</a>
+            </li>
+            
+          
+           </ul>
+        </div>
+    </nav>
+
+</body>
+
+</html>
